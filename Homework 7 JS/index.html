@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+<body>
+    <h1>Student registry form:</h1>
+    <div>
+        <input class = "inputs" type="text" placeholder="First Name">
+        <input class = "inputs" type="text" placeholder="Last Name">
+        <input class = "inputs" type="text" placeholder="Age">
+        <button id="saveBtn">Save</button>
+        <ul id="printStudents"></ul>
+    </div>
+    <hr/>
+    <br/>
+
+    <h2>Famous Books:</h2>
+    <hr />
+    <section id="formContainer">
+        <form>
+            <input class="bookInputs" type="text" placeholder="Book title:" />
+            <input class="bookInputs" type="text" placeholder="Book author:">
+            <label for="not-read">Need to read</label>
+            <input class="bookInputs" type="radio" id="not-read" name="readingStatus" value="not-read-yet"/>
+            <label for="read">Already read</label>
+            <input class="bookInputs" type="radio" id="read" name="readingStatus" value="already-read" />
+            <button id="addBookBtn">Add Book</button>
+        </form>
+        
+         
+    </section>
+    <section id="printBooks"></section>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
