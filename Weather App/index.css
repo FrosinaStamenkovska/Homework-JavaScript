@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/1356448.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbarText {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navIcons {
+    width: 35px;
+    height: 35px;
+}
+
+section {
+    text-align: center;
+    display: none;
+}
+
+.tempAndHumidity {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#hourlySection {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#warmestTime {
+    margin-top: 20px;
+}
