@@ -47,6 +47,5 @@ generateJoke.addEventListener("click", () =>{
     } else {
         displayJoke(`https://api.chucknorris.io/jokes/random?category=${chosenCategory}`)
     }
-    chosenCategory.innerHTML = "";
 });
 
